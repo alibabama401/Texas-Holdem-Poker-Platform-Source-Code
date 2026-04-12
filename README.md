@@ -126,7 +126,7 @@ This is a **complete Texas Hold'em poker platform**, including:
 
 ---
 
-## 📞 Contact (重要：成交入口)
+## 📞 Contact 
 
 🔥 Get full source code & live demo now  
 
