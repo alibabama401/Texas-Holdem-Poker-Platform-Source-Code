@@ -137,7 +137,7 @@ This is a **complete Texas Hold'em poker platform**, including:
 
 ---
 
-## 🔥 Urgency / CTA（成交关键）
+## 🔥 Urgency / CTA
 
 ⚠️ Limited availability for custom support  
 ⚠️ Serious buyers only  
@@ -146,7 +146,7 @@ This is a **complete Texas Hold'em poker platform**, including:
 
 ---
 
-## 🔍 Keywords (SEO)
+## 🔍 Keywords 
 
 Texas Hold'em poker source code, online poker platform, poker business solution, multiplayer poker server, casino game system  
 德州扑克源码, 德州扑克平台, 在线德州扑克, 棋牌游戏开发, 棋牌源码  
