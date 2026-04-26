@@ -1,5 +1,5 @@
 # 🃏 Texas Hold'em Poker Platform Source Code | 德州扑克平台源码 | 德州撲克平台源碼
-
+## 运营多年，支持8种语言，十多个德州玩法+私人局+俱乐部+大联盟
 🔥 Build a real-money poker platform in days  
 🔥 Real-time Multiplayer | Club | Tournament | Private Room  
 🔥 Production-ready system used in real projects  
