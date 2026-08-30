@@ -1,15 +1,14 @@
-# 🃏 Texas Hold'em Poker Platform Source Code | 德州扑克平台源码 |德州源码 | 德州撲克平台源碼|德州源碼 |德州撲克源碼 |德州俱樂部|德州私人局|
+# 德州扑克平台源码｜德州源码 |德州俱樂部| Texas Holdem Poker Platform Source Code
+
+[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
+
 ## 运营多年，支持8种语言，十多个德州玩法+私人局+俱乐部+大联盟
-🔥 Build a real-money poker platform in days  
-🔥 Real-time Multiplayer | Club | Tournament | Private Room  
-🔥 Production-ready system used in real projects  
-🔥 Full source code + Admin panel + Monetization system  
 
-👉 Start your poker business with full control & revenue system  
-👉 快速搭建盈利德州扑克平台，实现商业变现  
-👉 快速建立盈利德州撲克平台，支援商業運營  
 
----
+## 项目定位
+
+本仓库聚焦 **Texas Holdem Poker Platform Source Code**，可用于展示德州扑克大厅、俱乐部、联盟系统、私人局、MTT 赛事、玩家中心、赠币功能和多人在线扑克平台能力。
+
 
 ## 🚀 Introduction | 项目介绍 | 專案介紹
 
@@ -97,16 +96,31 @@ This is a **complete Texas Hold'em poker platform source code**, including:
 👉 Save time, reduce risk, start earning faster  
 👉 更快上线，更快盈利  
 👉 更快上線，更快盈利  
-## 📸 Live System Preview
+## 产品截图
 
+![德州扑克平台源码 德州平台界面 002 产品截图](docs/Assets/Screenshots/002.jpg)
 
-![微信图片_20241031110826](https://github.com/user-attachments/assets/a838dbec-8a6d-4296-ac64-3fcd7bcbb5c6)
-![微信图片_20241029191835](https://github.com/user-attachments/assets/fcf2257b-a97f-4c79-a83f-40aaee27500b)
-![MTT-报名（门票）](https://github.com/user-attachments/assets/e61751be-f678-410b-bc7c-d51c9c452666)
-![3联盟-加入主页](https://github.com/user-attachments/assets/a90bce66-f5e2-427b-b3e4-9ba7368a3a0d)
-![3联盟-充值联盟币](https://github.com/user-attachments/assets/527e8fc0-eb11-4010-8e23-f4ae3a94817a)
-![1管理俱乐部币](https://github.com/user-attachments/assets/966f553d-08a8-49ee-afbc-fdbc6653f56f)
-![01](https://github.com/user-attachments/assets/6e8e5a53-2c5c-4e56-b9e5-23be01584508)
+![德州扑克平台源码 德州平台界面 555 产品截图](docs/Assets/Screenshots/555.jpg)
+
+![德州扑克平台源码 大牌玩法 产品截图](docs/Assets/Screenshots/dapai.jpg)
+
+![德州扑克平台源码 德州大厅 2 产品截图](docs/Assets/Screenshots/dating2.jpg)
+
+![德州扑克平台源码 新版大厅 产品截图](docs/Assets/Screenshots/dating_new.JPG)
+
+![德州扑克平台源码 个人中心 产品截图](docs/Assets/Screenshots/geren.jpg)
+
+![德州扑克平台源码 俱乐部 产品截图](docs/Assets/Screenshots/julebu.jpg)
+
+![德州扑克平台源码 联盟系统 产品截图](docs/Assets/Screenshots/lianmeg.jpg)
+
+![德州扑克平台源码 MTT 赛事 产品截图](docs/Assets/Screenshots/mtt02.jpg)
+
+![德州扑克平台源码 私人局 产品截图](docs/Assets/Screenshots/sirenju.jpg)
+
+![德州扑克平台源码 游戏界面 产品截图](docs/Assets/Screenshots/youxi.JPG)
+
+![德州扑克平台源码 赠币功能 产品截图](docs/Assets/Screenshots/zengbi.JPG)
 
 
 ---
@@ -125,18 +139,18 @@ This is a **complete Texas Hold'em poker platform source code**, including:
 适用于 / 適用於：
 - 棋牌游戏开发 / 棋牌平台  
 - 出海项目 / 海外运营  
-- 创业项目 / 商业变现  
+- 创业项目  
 - 二次开发 / 定制开发  
 ---
 
 ## 📞 Contact 
 
-🔥 Get full source code & live demo now  
+
 
 📧 Email: ttpoker40@gmail.com  
+
 💬 Telegram: @alibabama401  
 
-👉 Message now to get pricing & demo  
 
 ---
 
