@@ -1,4 +1,4 @@
-# 德州扑克平台源码与德州私人房，德州俱乐部 | Texas Holdem Poker Platform Source Code
+# 德州扑克平台源码、德州俱乐部、联盟、私人房 | Texas Holdem Poker Platform Source Code
 
 [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md) | [GitHub Pages](https://alibabama401.github.io/Texas-Holdem-Poker-Platform-Source-Code/)
 

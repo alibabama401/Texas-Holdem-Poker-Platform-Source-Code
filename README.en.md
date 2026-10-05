@@ -1,77 +1,62 @@
 # Texas Holdem Poker Platform Source Code
 
-[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
+[简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md) | [GitHub Pages](https://alibabama401.github.io/Texas-Holdem-Poker-Platform-Source-Code/)
 
-This project focuses on Texas Holdem poker platforms, clubs, alliances, private rooms, MTT tournaments, coin lobbies, player centers, and multi-mode poker products. It is suitable for product presentation, technical evaluation, secondary development, private deployment, and GitHub Pages SEO optimization.
+C++ callback and Protobuf reference for Texas Holdem platform research. Public files cover login and user-state callbacks, clubs, unions, private rooms, SNG/MTT configuration, poker messages, game records, and real mobile product screenshots.
 
-## Reading and Download
+> **Repository scope:** This is a partial source and protocol reference. It is not a complete buildable or production-ready poker platform. Missing items include the dependency graph, build scripts, database, service entry points, complete Unity scenes, and administration frontend.
 
-- Online homepage: https://alibabama401.github.io/Texas-Holdem-Poker-Platform-Source-Code/
-- GitHub repository: https://github.com/alibabama401/Texas-Holdem-Poker-Platform-Source-Code
-- Please read this README first, then check the published product page from `docs/index.html`.
-- To download the source code, click `Code` in the upper-right corner of the repository and choose `Download ZIP`.
+## Product Views
 
-## Project Positioning
+<table>
+<tr><td width="50%"><img src="docs/assets/screenshots/dating_new.JPG" alt="Lobby and room list" width="100%"><br><strong>Lobby and room list</strong></td><td width="50%"><img src="docs/assets/screenshots/julebu.jpg" alt="Club creation screen" width="100%"><br><strong>Club creation screen</strong></td></tr>
+<tr><td width="50%"><img src="docs/assets/screenshots/lianmeg.jpg" alt="Union system interface" width="100%"><br><strong>Union system interface</strong></td><td width="50%"><img src="docs/assets/screenshots/mtt02.jpg" alt="MTT blind structure" width="100%"><br><strong>MTT blind structure</strong></td></tr>
+<tr><td width="50%"><img src="docs/assets/screenshots/sirenju.jpg" alt="Friends-only private room" width="100%"><br><strong>Friends-only private room</strong></td><td width="50%"><img src="docs/assets/screenshots/youxi.JPG" alt="Texas Holdem game interface" width="100%"><br><strong>Texas Holdem game interface</strong></td></tr>
+</table>
 
-This repository focuses on **Texas Holdem Poker Platform Source Code**. It can be used to present Texas Holdem lobbies, clubs, alliance systems, private rooms, MTT tournaments, player centers, coin gift features, and multiplayer online poker platform capabilities.
+## Verifiable Features
 
-## Product Screenshots
+- **C++ router callbacks:** login-token results, connection mapping, user metadata, online/offline state, room-status lookup, logout, and assistant-status callbacks.
+- **Club and union protocols:** create, join, search, review, membership, role changes, funds, bills, tables, and union membership messages.
+- **Tournament configuration:** MTT/SNG room types, blind structures, entry fees, rewards, rankings, rebuy, and refund fields.
+- **Texas Holdem resources:** poker messages in `dz.proto`, records in `GameRecord.proto`, and user/club data in `Friends.proto`.
+- **Product media:** 12 local screenshots plus a repository video showing lobby, club, union, tournament, private-room, and table interfaces.
 
-![Texas Holdem poker platform screenshot - 德州平台界面 002](docs/Assets/Screenshots/002.jpg)
+## Texas Hold’em Gameplay
 
-![Texas Holdem poker platform screenshot - 德州平台界面 555](docs/Assets/Screenshots/555.jpg)
+Each player receives two private cards. Five community cards appear across the flop, turn, and river. Betting rounds allow checking, calling, raising, or folding. The strongest five-card combination from seven available cards wins according to the table rules. The repository also contains protocol fields for SNG and MTT tournament flows.
 
-![Texas Holdem poker platform screenshot - 大牌玩法](docs/Assets/Screenshots/dapai.jpg)
+## Source Map
 
-![Texas Holdem poker platform screenshot - 德州大厅 2](docs/Assets/Screenshots/dating2.jpg)
+| Public file | Verifiable content |
+|---|---|
+| `AsyncLoginCallback.*` | Login response, connection mapping, state notifications |
+| `AsyncGetUserCallback.*` | Device, platform, channel, area, and robot metadata |
+| `AsyncUserServerMapCallback.*` | Online/offline and room-status callbacks |
+| `CommonStruct.proto` | Club, union, tournament, private-room, and coin-flow enums |
+| `config.proto` | Room, MTT/SNG, blind, entry-fee, reward, and club settings |
+| `dz.proto` / `GameRecord.proto` | Poker protocol fields and hand-record structures |
 
-![Texas Holdem poker platform screenshot - 新版大厅](docs/Assets/Screenshots/dating_new.JPG)
+## Repository Layout
 
-![Texas Holdem poker platform screenshot - 个人中心](docs/Assets/Screenshots/geren.jpg)
+`*.cpp / *.h` C++ callback fragments  
+`*.proto` Protobuf message definitions  
+`docs/` multilingual GitHub Pages and search files  
+`docs/assets/screenshots/` local product screenshots  
 
-![Texas Holdem poker platform screenshot - 俱乐部](docs/Assets/Screenshots/julebu.jpg)
+## Evaluation Checklist
 
-![Texas Holdem poker platform screenshot - 联盟系统](docs/Assets/Screenshots/lianmeg.jpg)
+1. Inspect `SOURCE-INVENTORY.md` and the public files.
+2. Resolve missing headers, generated Protobuf/Tars code, libraries, and service implementations.
+3. Document the database, deployment topology, configuration, security model, and test strategy.
+4. Review `License.md`; its MIT text and separate commercial/all-rights-reserved wording should be clarified by the owner.
+5. Confirm local laws, platform rules, security, and game fairness before any production use.
 
-![Texas Holdem poker platform screenshot - MTT 赛事](docs/Assets/Screenshots/mtt02.jpg)
+## Contact
 
-![Texas Holdem poker platform screenshot - 私人局](docs/Assets/Screenshots/sirenju.jpg)
+Email: ttpoker40@gmail.com  
+Telegram: [@alibabama401](https://t.me/alibabama401)
 
-![Texas Holdem poker platform screenshot - 游戏界面](docs/Assets/Screenshots/youxi.JPG)
+## Search Terms
 
-![Texas Holdem poker platform screenshot - 赠币功能](docs/Assets/Screenshots/zengbi.JPG)
-
-## Core Capabilities
-
-- Texas Holdem lobby, poker table, game UI, and player center presentation
-- Club, alliance, private room, coin lobby, and coin gift feature scenarios
-- MTT tournaments, multi-mode gameplay entry, and operation feature presentation
-- Suitable for secondary development, UI reskinning, feature expansion, and private deployment
-- Can be published through GitHub Pages for Google and Bing indexing
-
-## Use Cases
-
-- Texas Holdem poker platform source code presentation
-- Technical evaluation for poker clubs, coin lobbies, alliance systems, and tournament platforms
-- Multiplayer online card game prototype
-- GitHub Pages homepage and search engine optimization
-
-## GitHub Pages
-
-The project homepage file is located at `docs/index.html`. For GitHub Pages, use:
-
-- Source: Deploy from a branch
-- Branch: main
-- Folder: /docs
-
-Published URL:
-
-https://alibabama401.github.io/Texas-Holdem-Poker-Platform-Source-Code/
-
-## Keywords
-
-Texas Holdem source code, poker platform source code, poker club source code, poker coin lobby, poker club platform, MTT poker, multiplayer poker source code, online poker platform.
-
-## Disclaimer
-
-This project is intended for software source code presentation, technical research, product evaluation, and compliant entertainment system development. Please use it legally according to local laws and platform rules.
+Texas Holdem source code, C++ poker server, Protobuf poker protocol, poker club source code, private room poker, SNG, MTT, multiplayer poker.
