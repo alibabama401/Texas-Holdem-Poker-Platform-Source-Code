@@ -1,6 +1,6 @@
-# Texas Holdem Poker Platform Source Code
+# Poker Club Source Code | Private Texas Holdem Games and Friend Rooms
 
-[简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md) | [GitHub Pages](https://alibabama401.github.io/Texas-Holdem-Poker-Platform-Source-Code/)
+[简体中文](README.zh-CN.md) | [台灣繁體](README.zh-TW.md) · [香港繁體](README.zh-HK.md) | [English](README.en.md) | [GitHub Pages](https://alibabama401.github.io/Texas-Holdem-Poker-Platform-Source-Code/)
 
 C++ callback and Protobuf reference for Texas Holdem platform research. Public files cover login and user-state callbacks, clubs, unions, private rooms, SNG/MTT configuration, poker messages, game records, and real mobile product screenshots.
 

@@ -1,6 +1,6 @@
-# 德州撲克平台原始碼與德州俱乐部、联盟、私人房 | Texas Holdem Poker Platform Source Code
+# 德州撲克俱樂部原始碼與私人局平台｜好友局、聯盟與即時協議
 
-[简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md) | [GitHub Pages](https://alibabama401.github.io/Texas-Holdem-Poker-Platform-Source-Code/)
+[简体中文](README.zh-CN.md) | [台灣繁體](README.zh-TW.md) · [香港繁體](README.zh-HK.md) | [English](README.en.md) | [GitHub Pages](https://alibabama401.github.io/Texas-Holdem-Poker-Platform-Source-Code/)
 
 面向多人撲克產品評估和伺服器協議研究的公開資料庫。倉庫提供登入、使用者狀態和服務映射等 C++ 回呼，以及俱樂部、聯盟、私人房、SNG、MTT 與牌局記錄相關 Protobuf 定義。
 

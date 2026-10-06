@@ -1,22 +1,24 @@
-# 德州俱乐部源码与德州私人局平台｜好友局、联盟与实时协议
+# 德州撲克俱樂部原始碼與私人局平台｜好友局、聯盟及即時協議
 
+
+> **香港繁體版：** 本頁採用香港常用繁體用語；功能與技術聲明仍以儲存庫內可核對的程式碼、協議、文件和截圖為準。
 [简体中文](README.zh-CN.md) | [台灣繁體](README.zh-TW.md) · [香港繁體](README.zh-HK.md) | [English](README.en.md) | [GitHub Pages](https://alibabama401.github.io/Texas-Holdem-Poker-Platform-Source-Code/)
 
-一个面向多人扑克产品评估和服务端协议研究的公开资料库。仓库提供登录、用户状态和服务映射等 C++ 回调，以及俱乐部、联盟、私人房、SNG、MTT 与牌局记录相关 Protobuf 定义。
+面向多人撲克產品評估和伺服器協議研究的公開資料庫。倉庫提供登入、用戶狀態和服務映射等 C++ 回調，以及俱樂部、聯盟、私人房、SNG、MTT 與牌局記錄相關 Protobuf 定義。
 
-> **範圍說明 / 范围说明：** 本仓库是部分源码与协议参考，不是可直接编译或上线的完整平台。公开文件缺少完整依赖、构建脚本、数据库、服务入口、Unity 场景和后台前端。
+> **範圍說明 / 范围说明：** 本倉庫是部分原始碼與協議參考，不是可直接編譯或上線的完整平台。公開檔案缺少完整依賴、建置腳本、資料庫、服務入口、Unity 場景和後台前端。
 
-## 产品截图
+## 產品截圖
 
 <table>
-<tr><td width="50%"><img src="docs/assets/screenshots/dating_new.JPG" alt="多玩法大厅与房间列表" width="100%"><br><strong>多玩法大厅与房间列表</strong></td><td width="50%"><img src="docs/assets/screenshots/julebu.jpg" alt="俱乐部创建界面" width="100%"><br><strong>俱乐部创建界面</strong></td></tr>
-<tr><td width="50%"><img src="docs/assets/screenshots/lianmeg.jpg" alt="联盟系统界面" width="100%"><br><strong>联盟系统界面</strong></td><td width="50%"><img src="docs/assets/screenshots/mtt02.jpg" alt="MTT 赛事盲注信息" width="100%"><br><strong>MTT 赛事盲注信息</strong></td></tr>
-<tr><td width="50%"><img src="docs/assets/screenshots/sirenju.jpg" alt="好友私人牌局" width="100%"><br><strong>好友私人牌局</strong></td><td width="50%"><img src="docs/assets/screenshots/youxi.JPG" alt="德州扑克游戏界面" width="100%"><br><strong>德州扑克游戏界面</strong></td></tr>
+<tr><td width="50%"><img src="docs/assets/screenshots/dating_new.JPG" alt="多玩法大廳與房間列表" width="100%"><br><strong>多玩法大廳與房間列表</strong></td><td width="50%"><img src="docs/assets/screenshots/julebu.jpg" alt="俱樂部建立介面" width="100%"><br><strong>俱樂部建立介面</strong></td></tr>
+<tr><td width="50%"><img src="docs/assets/screenshots/lianmeg.jpg" alt="聯盟系統介面" width="100%"><br><strong>聯盟系統介面</strong></td><td width="50%"><img src="docs/assets/screenshots/mtt02.jpg" alt="MTT 賽事盲注資訊" width="100%"><br><strong>MTT 賽事盲注資訊</strong></td></tr>
+<tr><td width="50%"><img src="docs/assets/screenshots/sirenju.jpg" alt="好友私人牌局" width="100%"><br><strong>好友私人牌局</strong></td><td width="50%"><img src="docs/assets/screenshots/youxi.JPG" alt="德州撲克遊戲介面" width="100%"><br><strong>德州撲克遊戲介面</strong></td></tr>
 </table>
 
-## 可核验功能
+## 可核驗功能
 
-- **C++ 回調 / 回呼：** 登錄/登入令牌、連接/連線映射、用戶/使用者資料、在線/線上狀態、房間狀態和退出處理。
+- **C++ 回調 / 回調：** 登錄/登入令牌、連接/連線映射、用戶/用戶資料、在線/網上狀態、房間狀態和退出處理。
 - **俱樂部、聯盟與私人房：** 建立、加入、搜尋、審核、成員、職位、帳單、牌桌和聯盟訊息。
 - **SNG 與 MTT：** 賽事房間、盲注、報名費、獎勵、排名、重購和退款欄位。
 - **德州協議：** `dz.proto`、`GameRecord.proto` 與 `Friends.proto` 提供牌局、記錄和社交資料結構。
@@ -26,18 +28,18 @@
 
 每位玩家獲得兩張私有底牌。翻牌、轉牌和河牌依序公開五張公共牌；各輪可根據規則過牌、跟注、加注或棄牌。玩家從七張可用牌中組成最佳五張牌。倉庫協議還包含 SNG 與 MTT 賽事相關欄位。
 
-## 公开文件映射
+## 公開檔案映射
 
 | 公開檔案 | 可核驗內容 |
 |---|---|
 | `AsyncLoginCallback.*` | 登入結果、連線映射與狀態通知 |
 | `AsyncGetUserCallback.*` | 裝置、平台、渠道、區域和機器人標記 |
-| `AsyncUserServerMapCallback.*` | 線上、離線與房間狀態查詢 |
+| `AsyncUserServerMapCallback.*` | 網上、離線與房間狀態查詢 |
 | `CommonStruct.proto` | 俱樂部、聯盟、賽事、私人房和金幣流水列舉 |
 | `config.proto` | 房間、MTT/SNG、盲注、報名費、獎勵和俱樂部設定 |
 | `dz.proto / GameRecord.proto` | 德州訊息欄位與牌局記錄結構 |
 
-## 评估与使用
+## 評估與使用
 
 1. 先查看 `SOURCE-INVENTORY.md` 和實際公開檔案。
 2. 補齊缺少的標頭檔、生成程式碼、依賴、服務實作、資料庫和配置。
@@ -50,6 +52,6 @@
 Email: ttpoker40@gmail.com  
 Telegram: [@alibabama401](https://t.me/alibabama401)
 
-## 搜索关键词
+## 搜尋關鍵詞
 
 德州撲克原始碼、德州撲克平台、C++ 撲克伺服器、Protobuf 撲克協議、撲克俱樂部、私人房、SNG、MTT、Texas Holdem source code。
